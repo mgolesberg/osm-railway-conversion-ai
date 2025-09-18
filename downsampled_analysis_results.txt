@@ -1,0 +1,80 @@
+Railway GeoJSON Analysis Results
+==================================================
+Generated: 2025-09-17 16:59:13
+Total Files Analyzed: 1
+
+
+================================================================================
+ANALYSIS SUMMARY: railways_ways_downsampled.geojson
+================================================================================
+
+File Size: 3.88 MB
+Total Features: 11,549
+
+Geometry Types:
+  LineString: 10,631 (92.1%)
+  MultiLineString: 918 (7.9%)
+
+Property Fields (11 total):
+  combined_way_count: 11,549 (100.0%)
+  geometry_type: 11,549 (100.0%)
+  source: 11,549 (100.0%)
+  usage: 9,860 (85.4%)
+  railway: 9,842 (85.2%)
+  name: 8,212 (71.1%)
+  ref: 4,787 (41.4%)
+  layer: 3,551 (30.7%)
+  name:en: 3,115 (27.0%)
+  bridge: 3,062 (26.5%)
+  name:zh: 3,011 (26.1%)
+
+Key Field Statistics:
+  railway: 9,842 (85.2%)
+    Type str: 9,842 (100.0%)
+    Sample values: ['rail']
+    All railway values:
+      rail: 9,842 (100.0%)
+
+  usage: 9,860 (85.4%)
+    Type str: 9,860 (100.0%)
+    Sample values: ['main', 'branch', 'industrial', 'military', 'freight']
+    All usage values:
+      main: 7,618 (77.3%)
+      branch: 1,897 (19.2%)
+      freight: 172 (1.7%)
+      military: 170 (1.7%)
+      industrial: 3 (0.0%)
+
+
+================================================================================
+OVERALL SUMMARY
+================================================================================
+Total Files Analyzed: 1
+Total Features: 11,549
+Total Size: 3.88 MB
+
+Most Common Fields Across All Datasets:
+  combined_way_count: 11,549 occurrences
+  geometry_type: 11,549 occurrences
+  source: 11,549 occurrences
+  usage: 9,860 occurrences
+  railway: 9,842 occurrences
+  name: 8,212 occurrences
+  ref: 4,787 occurrences
+  layer: 3,551 occurrences
+  name:en: 3,115 occurrences
+  bridge: 3,062 occurrences
+
+Key Field Summary:
+  railway: 9,842 (85.2%)
+  usage: 9,860 (85.4%)
+
+All Railway Values Across All Datasets:
+  rail: 9,842 (100.0%)
+
+All Usage Values Across All Datasets:
+  main: 7,618 (77.3%)
+  branch: 1,897 (19.2%)
+  freight: 172 (1.7%)
+  military: 170 (1.7%)
+  industrial: 3 (0.0%)

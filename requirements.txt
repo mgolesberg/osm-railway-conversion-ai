@@ -2,3 +2,4 @@ osmium
 geojson
 pyproj
 black
+shapely

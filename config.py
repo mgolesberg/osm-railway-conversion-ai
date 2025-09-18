@@ -12,7 +12,7 @@ import re
 # =============================================================================
 
 # Input file configuration
-INPUT_PBF_FILENAME = "czech-republic-250908.osm.pbf"
+INPUT_PBF_FILENAME = "china-250907.osm.pbf"
 
 # Processing configuration
 NUM_SPLITS = 6  # Number of files to split railways_ways into
@@ -119,6 +119,11 @@ def get_railways_ways_valid_paths():
         os.path.join(output_dir, f"railways_ways_valid_{i}.geojson")
         for i in range(1, NUM_SPLITS + 1)
     ]
+
+
+def get_railways_relations_path():
+    """Get path for railways relations output file"""
+    return os.path.join(get_output_directory(), "railways_relations.geojson")
 
 
 # =============================================================================
